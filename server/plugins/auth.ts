@@ -7,14 +7,14 @@ export default createAuthPlugin({
   // callback can handle both normal sign-in and the Calendar connect flow.
   mountGoogleOAuthRoutes: false,
   marketing: {
-    appName: "Agent-Native Clips",
+    appName: "ClipText AI",
     tagline:
-      "Your AI agent transcribes, summarizes, and searches everything you record alongside you.",
+      "Convert any video or screen recording into a full timestamped transcript — then send it straight to Claude.",
     features: [
-      "One-click screen recording (Loom-style) with auto titles, summaries, and chapters",
-      "Calendar-synced meeting notes (Granola-style) with live transcripts and AI action items",
-      "Push-to-talk voice dictation (Wisprflow-style) — hold Fn anywhere, get clean text back",
-      "One searchable library across recordings, meetings, and dictations",
+      "Upload any video or record your screen — transcript generated automatically",
+      "Timestamped transcript with search, copy, .txt and .md export",
+      "One-click 'Claude-ready prompt' — paste directly into Claude with full context",
+      "100% local-first: SQLite database, no cloud required",
     ],
   },
   publicPaths: [
