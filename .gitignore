@@ -1,0 +1,56 @@
+# React Router generated types
+.react-router/
+
+# Logs
+logs
+*.log
+npm-debug.log*
+pnpm-debug.log*
+
+node_modules
+dist
+dist-ssr
+*.local
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Environment — keep secrets out of git
+.env
+.env.*
+!.env.example
+
+# Build output
+build
+.output/
+.generated/
+
+# Stray SQLite files (real DB lives under data/)
+/app.db
+/app.db-shm
+/app.db-wal
+/local.db
+
+# User data — uploads and settings are local only
+data/uploads/
+data/settings.json
+data/.sessions.json
+data/app.db
+data/app.db-shm
+data/app.db-wal
+
+# Mediapipe WASM (generated at build time)
+public/mediapipe/wasm/
+
+# Learnings (personal memory — not committed)
+learnings.md
+
+.vercel/
